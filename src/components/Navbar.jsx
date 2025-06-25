@@ -19,7 +19,7 @@ const Navbar = () => {
   ];
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-white/80 backdrop-blur-md shadow-md">
+    <header className="fixed top-0 left-0 w-full z-50 bg-transparent backdrop-blur-md shadow-md">
       <div className="flex items-center justify-between px-5 md:px-32 py-4">
         {/* Logo */}
         <a href="/" className="flex items-center gap-2">
@@ -28,7 +28,7 @@ const Navbar = () => {
             alt="Logo"
             className="w-10 h-10 rounded-full object-cover"
           />
-          <span className="text-xl font-bold text-black">Truf Arena</span>
+          <span className="text-xl font-bold text-white">Truf Arena</span>
         </a>
 
         {/* Desktop Navigation */}
@@ -40,7 +40,7 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               duration={500}
-              className="text-black hover:text-red-500 transition cursor-pointer font-medium"
+              className="text-white hover:text-red-500 transition cursor-pointer font-medium"
             >
               {item.label}
             </ScrollLink>
@@ -50,7 +50,7 @@ const Navbar = () => {
         {/* Mobile Toggle Button */}
         <button
           onClick={toggleMenu}
-          className="md:hidden text-black focus:outline-none"
+          className="md:hidden text-whit focus:outline-none"
           aria-label="Toggle menu"
         >
           {menuOpen ? (
@@ -63,7 +63,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`md:hidden fixed top-16 left-0 w-full bg-white text-black transition-transform duration-300 ease-in-out z-40 ${
+        className={`md:hidden fixed top-16 left-0 w-full  text-white bg-black transition-transform duration-300 ease-in-out z-40 ${
           menuOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >

@@ -26,8 +26,7 @@ const Footer = () => {
             </div>
           </Link>
           <p className="mt-4 text-gray-300 text-sm">
-            Truf Cricket is your trusted partner for fitness, wellness, and a
-            healthier lifestyle. Join us to transform your body and mind with
+            Join us to transform your body and mind with
             expert guidance and community support.
           </p>
         </div>
