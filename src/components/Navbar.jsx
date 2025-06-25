@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { AiOutlineMenuUnfold } from "react-icons/ai";
-import Logo from "../assets/img/Logo.jpeg";
+import Logo from "../assets/img/Logo.jpeg"
 
 
 const Navbar = () => {
