@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-scroll";
 import { AiTwotonePhone } from "react-icons/ai";
 import { AiOutlineMail } from "react-icons/ai";
-import Logo from "../assets/img/Logo.jpeg";
+import Logo from "../assets/img/logo.jpeg";
 
 const Footer = () => {
   return (
