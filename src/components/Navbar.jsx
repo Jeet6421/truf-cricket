@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { AiOutlineMenuUnfold } from "react-icons/ai";
-import Logo from "../assets/img/Logo.jpeg"
+import logo from "../assets/img/Logo.jpeg"
 
 
 const Navbar = () => {
@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className=" flex items-center p-2">
           <Link to="/">
             <div className="flex items-center">
-              <img src={Logo} alt="Logo" className="w-8 h-8" />
+              <img src={logo} alt="Logo" className="w-8 h-8" />
             </div>
           </Link>
         </div>
